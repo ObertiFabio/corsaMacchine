@@ -11,6 +11,7 @@ class corsaAuto extends Thread {
     this.numAuto=numAuto;
     this.nome=nome;
     tempo=new Random();
+    
   }
   public void run(){
   try {
